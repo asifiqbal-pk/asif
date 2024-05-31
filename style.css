@@ -724,8 +724,8 @@ transition: transform 0.5s ease;
 }
 
 .portfolio-branding img {
-  width: 50%; /* Ensure responsiveness */
-  max-height: 70vh; /* Maintain aspect ratio */
+  width: 40%; /* Ensure responsiveness */
+  max-height: 40vh; /* Maintain aspect ratio */
   margin: 1rem;
   box-shadow: 1px 1px 3px #f1f1f1;
   border-radius: 4px;
@@ -777,9 +777,11 @@ transition: transform 0.5s ease;
 }
 
 .logo-branding img {
-  margin: 0.9rem; /* Increased spacing */
+  margin: 0.5rem; /* Increased spacing */
+  padding-bottom: 0.5rem;
   width: fit-content;
   height: fit-content;
+  min-width: 15rem;
   justify-content: center; /* Center items vertically in the flex container */
   transition: background-color 0.3s ease, color 0.3s ease;
 }

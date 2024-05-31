@@ -78,19 +78,5 @@ document.addEventListener('DOMContentLoaded', function() {
                 $('#imageModal').css('display', 'none');
             }
         });
-
-    document.addEventListener("DOMContentLoaded", function() {
-        // Get all image containers
-        var imageContainers = document.querySelectorAll(".image-container");
-
-        // Loop through each container and set the image name
-        imageContainers.forEach(function(container) {
-            var img = container.querySelector("img");
-            var imageNameDiv = container.querySelector(".image-name");
-            if (img && imageNameDiv) {
-                imageNameDiv.textContent = img.alt;
-            }
-        });
-    });
     });
 });

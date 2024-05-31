@@ -778,7 +778,7 @@ transition: transform 0.5s ease;
 
 .logo-branding img {
   margin: 0.9rem; /* Increased spacing */
-  width: 50%;
+  width: fit-content;
   height: fit-content;
   justify-content: center; /* Center items vertically in the flex container */
   box-shadow: 2px 2px 5px #b2c9f8;

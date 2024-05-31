@@ -849,6 +849,8 @@ transition: transform 0.5s ease;
   max-width: 92%; /* Maximum width is the container's width */
   max-height: 92vh; /* Do not exceed the viewport's height */
   object-fit: contain; /* Preserve aspect ratio while fitting in the container */
+  justify-content: center; /* Center horizontally */
+  vertical-align: middle;
 }
 
 /* Caption of Modal Image */

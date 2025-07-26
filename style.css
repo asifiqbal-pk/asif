@@ -44,7 +44,7 @@
 }
 
 .sidebar img {
-    height: 17vh;
+    height: 15vh;
     width: auto; /* Adjust image size */
     margin: 1px 10%; /* Center the image */
     border: 2px solid #fff;
@@ -116,7 +116,7 @@
 
 .left-column {
   width: 45%;
-  padding-left: 2rem;  padding-right: 0.5rem;
+  padding-left: 1.5rem;  padding-right: 0.5rem;
 }
 
 .right-column {

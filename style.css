@@ -57,7 +57,7 @@
 }
 
 .sidebar p {
-  color: #fff; font-size: 0.8em; font-weight: 300; line-height: 1.2em;
+  color: #fff; font-size: 12px; font-weight: 300; line-height: 1.2em;
 }
 
 .contacts {
@@ -65,7 +65,7 @@
   height: auto;
   color: #ffffff;
   text-align: left;
-  padding: 0px 12px;
+  padding: 0px 10px;
   z-index: 999;
 }
 
@@ -96,13 +96,13 @@
   font-weight: 700;
   line-height: 1.2rem;
   margin-bottom: 3rem;
-  margin-left: 17%;
+  margin-left: 15%;
   padding-top: 60px;
 }
 
 #main-content {
-  margin-left: 17%;
-  padding: 5px 40px;
+  margin-left: 15%;
+  padding: 5px 30px;
   display: flex;
   flex-wrap: wrap;
 }

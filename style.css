@@ -44,9 +44,9 @@
 }
 
 .sidebar img {
-    height: 13vh;
+    height: 15vh;
     width: auto; /* Adjust image size */
-    margin: 1px 5%; /* Center the image */
+    margin: 1px 1%; /* Center the image */
     border: 2px solid #fff;
     border-radius: 50%; /* This makes the image circular, similar to what 'rounded-circle' class would do */
     margin-bottom: 1.5rem;

@@ -135,12 +135,13 @@ nav.vertical-nav ul {
   }
   
   .nav-icon {
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: #3761b6;
     vertical-align: middle;
     padding-left: 5px;
     padding-top: 1px;
     padding-bottom: 1px;
+    horizontal-align: centre;
     margin-right: 11%;
   }
   

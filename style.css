@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
   margin: 0;
-  margin-bottom: 12px;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -44,20 +43,20 @@
 }
 
 .sidebar img {
-    height: 15vh;
+    height: 17vh;
     width: auto; /* Adjust image size */
-    margin: 1px 1%; /* Center the image */
+    margin: 1px 10%; /* Center the image */
     border: 2px solid #fff;
     border-radius: 50%; /* This makes the image circular, similar to what 'rounded-circle' class would do */
     margin-bottom: 1.5rem;
 }
 
 .sidebar h3 {
-  color: #fff; font-size: 1.12em; font-weight: 550; text-transform: uppercase; padding-bottom: 0.5rem;
+  color: #fff; font-size: 1.15em; font-weight: 550; text-transform: uppercase; padding-bottom: 0.5rem;
 }
 
 .sidebar p {
-  color: #fff; font-size: 13px; font-weight: 300; line-height: 1.3em;
+  color: #fff; font-size: 0.9em; font-weight: 300; line-height: 1.2em;
 }
 
 .contacts {
@@ -65,7 +64,7 @@
   height: auto;
   color: #ffffff;
   text-align: left;
-  padding: 0px 10px;
+  padding: 0px 11px;
   z-index: 999;
 }
 
@@ -75,34 +74,34 @@
 }
  
 .contacts i {
-  margin-right: 0.3rem;
+  margin-right: 0.5rem;
   color: #fff;
-  padding-bottom: 0.1rem;
+  padding-bottom: 0.4rem;
 }
 
 .footer p {
   position: relative;
   font-size: 12px;
   color: #fff;
-  padding: 1px 10px;
+  padding: 1px 12px;
   text-align: left;
 }
  
 #main-heading {
   text-align: center;
   color: #3761b6;
-  font-size:1.7em;
+  font-size:1.8em;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 1.2rem;
   margin-bottom: 3rem;
-  margin-left: 15%;
-  padding-top: 30px;
+  margin-left: 21%;
+  padding-top: 21%;
 }
 
 #main-content {
-  margin-left: 12%;
-  padding: 5px 19px;
+  margin-left: 21%;
+  padding: 5px 40px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -115,12 +114,12 @@
 }
 
 .left-column {
-  width: 47%;
-  padding-left: 1.5rem;  padding-right: 0.5rem;
+  width: 45%;
+  padding-left: 2rem;  padding-right: 0.5rem;
 }
 
 .right-column {
-  width: 53%;
+  width: 55%;
   padding-right: 1rem;
 }
 
@@ -129,19 +128,18 @@
 ======================================================  */
 nav.vertical-nav ul {
     list-style-type: none;
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-align: left;
     font-weight: 400;
   }
   
   .nav-icon {
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: #3761b6;
     vertical-align: middle;
     padding-left: 5px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    horizontal-align: centre;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-right: 11%;
   }
   
@@ -151,7 +149,7 @@ nav.vertical-nav ul {
     display: block; /* makes the entire area clickable */
     padding: 5px; /* adds some padding inside the link */
     margin-right: 11%;
-    margin-bottom: 7px;
+    margin-bottom: 11px;
     border-radius: 50px;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
@@ -167,10 +165,10 @@ nav.vertical-nav ul {
     font-style: italic;
     -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,.2);
     box-shadow: 0px 0px 10px #e1eaff;
-    transform: translateX(5px);
+    transform: translateX(6px);
     opacity: 1;
-    padding-left: 17px;
-    margin-right: 7%;
+    padding-left: 19px;
+    margin-right: 9%;
   }  
   
   nav.vertical-nav a:before{
@@ -200,26 +198,26 @@ nav.vertical-nav ul {
 ================================================*/
 
 .about-container {
-  padding: 2% 2% 2% 2%;
+  padding: 3% 4% 0%;
 }
   .about-box {
     overflow: hidden;
     text-align:center;
-    Border: solid 1px #3761b6;
+    Border: solid 1px #2653ad;
     border-radius: 11px;
     display: inline-block;
     padding: 0.3rem;
     background:#f6f8fc;
-    margin: 0.3rem 0.3rem;
-    width: 12vw;
-    min-height: 163px;
+    margin: 0.7rem 0.3rem;
+    width: 11vw;
+    min-height: 180px;
     vertical-align: top;
   }
   
   .about-box h5 {
     font-size: 1rem;
     font-weight: 600;
-    color:#3761b6;
+    color:#2653ad;
     text-transform: uppercase;
     padding-bottom: 0.4rem;
     padding-top: 0.4rem;
@@ -233,11 +231,11 @@ nav.vertical-nav ul {
   }
   
   .about-box i {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align:center;
+       color:#3761b6;
     padding-top: 1rem;
-    padding-bottom: 0.3rem;
-    color: #3761b6;
+    padding-bottom: 1.2rem;
   }
   
   /*==============================================

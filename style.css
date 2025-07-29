@@ -43,7 +43,7 @@
 }
 
 .sidebar img {
-    height: 17vh;
+    height: 15vh;
     width: auto; /* Adjust image size */
     margin: 1px 10%; /* Center the image */
     border: 2px solid #fff;
@@ -52,11 +52,11 @@
 }
 
 .sidebar h3 {
-  color: #fff; font-size: 1.15em; font-weight: 550; text-transform: uppercase; padding-bottom: 0.5rem;
+  color: #fff; font-size: 1.15em; font-weight: 630; text-transform: uppercase; padding-bottom: 0.5rem;
 }
 
 .sidebar p {
-  color: #fff; font-size: 0.9em; font-weight: 300; line-height: 1.2em;
+  color: #fff; font-size: 0.85em; font-weight: 500; line-height: 1.2em;
 }
 
 .contacts {
@@ -74,14 +74,16 @@
 }
  
 .contacts i {
+  font-size: 15px;
   margin-right: 0.5rem;
   color: #fff;
-  padding-bottom: 0.4rem;
+  padding-bottom: 0.5rem;
 }
 
 .footer p {
   position: relative;
   font-size: 12px;
+  line-height: 1.2rem;
   color: #fff;
   padding: 1px 12px;
   text-align: left;
@@ -96,7 +98,7 @@
   line-height: 1.2rem;
   margin-bottom: 3rem;
   margin-left: 21%;
-  padding-top: 21%;
+  padding-top: 4%;
 }
 
 #main-content {
@@ -147,7 +149,7 @@ nav.vertical-nav ul {
     text-decoration: none;
     color: #fff;
     display: block; /* makes the entire area clickable */
-    padding: 5px; /* adds some padding inside the link */
+    padding: 3px; /* adds some padding inside the link */
     margin-right: 11%;
     margin-bottom: 11px;
     border-radius: 50px;
@@ -208,12 +210,19 @@ nav.vertical-nav ul {
     display: inline-block;
     padding: 0.3rem;
     background:#f6f8fc;
-    margin: 0.7rem 0.3rem;
-    width: 11vw;
-    min-height: 180px;
+    margin: 0.3rem 0.3rem;
+    width: 10vw;
+    min-height: 150px;
     vertical-align: top;
   }
   
+  .about-box i {
+    font-size: 2.0rem;
+    text-align:center;
+       color:#3761b6;
+    padding-top: 1rem;
+    padding-bottom: 1.1rem;
+  }  
   .about-box h5 {
     font-size: 1rem;
     font-weight: 600;
@@ -229,14 +238,7 @@ nav.vertical-nav ul {
     text-align:center;
     line-height: 1.2rem;
   }
-  
-  .about-box i {
-    font-size: 2.5rem;
-    text-align:center;
-       color:#3761b6;
-    padding-top: 1rem;
-    padding-bottom: 1.2rem;
-  }
+
   
   /*==============================================
          RESUME BLOCK CSS
